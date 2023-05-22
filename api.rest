@@ -1,0 +1,11 @@
+GET http://192.168.137.178/data
+
+### post
+POST  http://192.168.137.178/data
+Content-Type: "application/json"
+
+{
+    "type": "heartrateFake",
+    "value": 0,
+    "unit": "bpmo"
+  }

@@ -1,0 +1,63 @@
+/* Style for the main heading */
+html {
+    margin: 4rem;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Style for the form containers */
+form {
+  margin-bottom: 20px;
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for form input fields */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for form submit buttons */
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Style for the response container */
+#responseContainer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  /* Adjust form inputs for smaller screens */
+  input[type="text"],
+  textarea {
+    width: calc(100% - 10px);
+  }
+  
+  /* Adjust response container for smaller screens */
+  #responseContainer {
+    font-size: 14px;
+  }
+}
